@@ -23,4 +23,13 @@ public class PermutationTest {
       Assertions.assertEquals(Arrays.asList("a"),combination);
    }
 
+   @Test
+   public void should_return_ab_ba_when_input_is_ab(){
+       //given
+       String input = "ab";
+       //when
+       List<String> combination = permutation.call(input);
+       //then
+       Assertions.assertEquals(Arrays.asList("ab,ba"),combination);
+   }
 }
