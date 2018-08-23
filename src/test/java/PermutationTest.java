@@ -30,6 +30,6 @@ public class PermutationTest {
        //when
        List<String> combination = permutation.call(input);
        //then
-       Assertions.assertEquals(Arrays.asList("ab,ba"),combination);
+       Assertions.assertEquals(Arrays.asList("ab, ba"),combination);
    }
 }
