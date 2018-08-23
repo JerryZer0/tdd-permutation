@@ -9,3 +9,7 @@
   When call Permutation.call()
   Then output list is [ab,ba]
 
+3.
+  Given two chars 'abc'
+  When call Permutation.call()
+  Then output list is [abc,acb,bac,bca,cab,cba]
