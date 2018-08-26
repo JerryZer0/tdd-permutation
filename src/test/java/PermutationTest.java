@@ -17,7 +17,6 @@ public class PermutationTest {
         String input = "a";
         //When
         List<String> combination = permutation.call(input);
-        System.out.println(combination);
         //Then
         Assertions.assertEquals(Arrays.asList("a"), combination);
     }
