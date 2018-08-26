@@ -13,7 +13,13 @@
 ```
 -
 ```text
-  Given two chars 'abc'
+  Given three chars 'abc'
   When call Permutation.call()
   Then output list is [abc,acb,bac,bca,cab,cba]
+``` 
+-
+```text
+  Given four chars 'abcd'
+  When call Permutation.call()
+  Then output length is 24
 ``` 

@@ -40,4 +40,14 @@ public class PermutationTest {
         //then
         Assertions.assertEquals(Arrays.asList("abc","acb","bac","bca","cab","cba"), combination);
     }
+
+    @Test
+    public void should_return_list_with_size_is_24_when_input_is_abcd() {
+        //given
+        String input = "abcd";
+        //when
+        List<String> combination = permutation.call(input);
+        //then
+        Assertions.assertEquals(24, combination.size());
+    }
 }
