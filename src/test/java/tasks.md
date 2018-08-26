@@ -1,15 +1,19 @@
 
-1.
+  -
+```text
   Given one char 'a'
   When call Permutation.call
   Then output list is [a]
-
-2.
+```
+ -
+```text
   Given two chars 'ab'
   When call Permutation.call()
   Then output list is [ab,ba]
-
-3.
+```
+-
+```text
   Given two chars 'abc'
   When call Permutation.call()
   Then output list is [abc,acb,bac,bca,cab,cba]
+``` 

@@ -14,6 +14,14 @@ public class Permutation {
             result.add(input.substring(0, 1) + input.substring(1, 2));
             result.add(input.substring(1, 2) + input.substring(0, 1));
         }
+        if (input.length() == 3) {
+            result.add(input.substring(0, 1) + input.substring(1, 2)+ input.substring(2, 3));
+            result.add(input.substring(0, 1) + input.substring(2, 3)+ input.substring(1, 2));
+            result.add(input.substring(1, 2) + input.substring(0, 1)+ input.substring(2, 3));
+            result.add(input.substring(1, 2) + input.substring(2, 3)+ input.substring(0, 1));
+            result.add(input.substring(2, 3) + input.substring(0, 1)+ input.substring(1, 2));
+            result.add(input.substring(2, 3) + input.substring(1, 2)+ input.substring(0, 1));
+        }
         return result;
     }
 }
